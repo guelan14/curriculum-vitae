@@ -44,26 +44,30 @@ span{
     font-weight:bold;
 }
 
-legend {
-    font-weight: bold;
-        }
-
 #nombre{
     display: inline-block;
-    margin-top: 50px;
-    
+    margin-top: 50px;  
 }
 
 fieldset{
     background-color: rgb(186, 187, 197);
-    margin-top: 15px;
+    margin-top: 50px;
     width: 250px;
     height: 100px;
+    border: 0px;
+    margin-left: 60px;
+    list-style-type: none;
 
 }
+
+li {
+    margin-bottom: 4px;
+  }
+
 
 .indent {
     margin-left: 40px;
     margin-right: 40px;
     text-align: left;
   }
+
