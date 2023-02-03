@@ -21,7 +21,21 @@ header{
 
 table{
     position:relative;
-    width:100%;
+    width: 100%;
+}
+
+
+.doscolum th{
+    width:50%;
+    text-align: left;
+    padding:5px;
+}
+
+.trescolum th{
+    width:25%;
+    text-align: left;
+    padding:5px;
+    
 }
 
 header {
@@ -41,15 +55,10 @@ header {
     
 }
 
-#contenedor2{
+#contenedor2 {
     margin-left: 40px;
     margin-right: 40px;
 }
-
-*{
-   outline: solid black 1px; 
-}
-
 
 
 #miImagen{
@@ -80,10 +89,10 @@ fieldset{
 
 }
 
+
+
+
 li {
     margin-bottom: 4px;
   }
-
-
-
 
