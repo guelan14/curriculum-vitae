@@ -1,17 +1,20 @@
 
 body{
+
     background-color: rgb(57, 75, 81);
-    font-family: Arial, Helvetica, sans-serif;  
 }
 
-h1,h2 {
+h1 {
     text-align: left;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif
 }
 
 h3{
     background-color: rgb(193, 193, 209);
     text-align: left;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
     padding:5px;
 }
 
@@ -27,14 +30,13 @@ table{
 
 .doscolum th{
     width:50%;
-    text-align: left;
+    text-align: justify;
     padding:5px;
 }
 
 .trescolum th{
     width:25%;
-    text-align: left;
-    padding:5px;
+    text-align: justify;
     
 }
 
@@ -58,6 +60,12 @@ header {
 #contenedor2 {
     margin-left: 40px;
     margin-right: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.importante{
+    font-size: 15px;
 }
 
 
@@ -65,6 +73,8 @@ header {
     margin:20px;
     border: 3px rgb(255, 255, 255) solid;
     border-radius: 50%;
+    height: 150px; 
+    width: 150px;
     
 }
 
@@ -74,8 +84,7 @@ span{
 
 #nombre{
     display: inline-block;
-    margin-top: 50px;  
-  
+    
 }
 
 fieldset{
@@ -86,13 +95,11 @@ fieldset{
     border: 0px;
     margin-left: 60px;
     list-style-type: none;
+    font-size: 18px;
 
 }
 
-
-
-
 li {
     margin-bottom: 4px;
-  }
+}
 
